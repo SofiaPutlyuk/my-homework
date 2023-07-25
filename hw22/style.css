@@ -58,4 +58,9 @@
  .text{
   margin-top: 50px;
  }
-  
+ .icon {
+  background-color: white;
+ }
+ .icon:hover {
+  background-color: blue;
+ }
