@@ -159,3 +159,40 @@ letter-spacing: 0.02em;
 text-align: left;
 
 }
+.title {
+margin: 0 auto;
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.add {
+  position: absolute;
+  background-color:  rgba(47, 48, 58, 0.80);
+  width: 370px;
+  height: 70px;
+}
+.for-text {
+  position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate( -50%, -50%);
+}
+.container_two {
+  position: absolute;
+  
+}
