@@ -64,3 +64,144 @@
  .icon:hover {
   background-color: blue;
  }
+
+ .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  width: 44px;
+  height: 44px;
+}
+.icon:hover  {
+  background-color:  rgba(33, 150, 243, 1);
+  }
+ .icon:hover path {
+  fill:  rgba(255, 255, 255, 1);
+  }
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+ border: 1px solid rgba(175, 177, 184, 1)
+  
+}
+.label:hover {
+  border: 1px solid rgba(33, 150, 243, 1) ;
+}
+.label:hover path {
+  fill:  rgba(33, 150, 243, 1);
+  }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+}
+.brend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  
+  background-color: #444141;
+  width: 44px;
+  height: 44px;
+}
+.brend:hover  {
+  background-color:  rgba(33, 150, 243, 1);
+  }
+
+
+
+
+
+
+
+
+
+
+.special path {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: rgba(175, 177, 184, 1);
+  border: 1px solid rgba(175, 177, 184, 1)
+}
+.note path {
+ display: inline;
+ fill: rgba(117, 117, 117, 1);
+
+  }
+  .note:hover path {
+    fill:rgba(33, 150, 243, 1);
+    }
+.text-note  {
+  display: inline;
+  color: rgba(117, 117, 117, 1);
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.text-note:hover {
+  color: rgba(33, 150, 243, 1);
+
+}
+.tel {
+  display: inline;
+  color: rgba(117, 117, 117, 1);
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.title {
+margin: 0 auto;
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.add {
+  position: absolute;
+  background-color:  rgba(47, 48, 58, 0.80);
+  width: 370px;
+  height: 70px;
+}
+.for-text {
+  position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate( -50%, -50%);
+}
+.container_two {
+  position: absolute;
+  
+}
