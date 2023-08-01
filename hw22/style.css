@@ -55,6 +55,15 @@
     margin-left: 20px;
     padding-top: 40px;
   }
+ .text{
+  margin-top: 50px;
+ }
+ .icon {
+  background-color: white;
+ }
+ .icon:hover {
+  background-color: blue;
+ }
 
  .icon {
   display: flex;
