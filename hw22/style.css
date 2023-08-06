@@ -171,12 +171,11 @@ line-height: normal;
 letter-spacing: 1.08px;
 }
 .add {
-  position: absolute;
+  position: relative;
   background-color:  rgba(47, 48, 58, 0.80);
   width: 370px;
   height: 70px;
-  bottom:3px;
-  margin:0 auto;
+ bottom:90px;
 }
 .for-text {
   position: absolute;
@@ -194,33 +193,30 @@ letter-spacing: 1.08px;
     margin-right: -50%;
     transform: translate( -50%, -50%);
 }
-.container_two {
-  position: absolute;
-  
-}
+
 .img_two {
-  position: absolute;
-  left: 408px;
+margin-left: 30px;
 }
 .add-two {
-  position: absolute;
+  position: relative;
   background-color:  rgba(47, 48, 58, 0.80);
   width: 370px;
   height: 70px;
-  left: 408px;
-  margin-top: 225px;
+  left:30px;
+  bottom:90px;
 }
 .img_three {
-  position: absolute;
-  left:806px;
+  margin-left: 30px;
+ 
 }
 .add-three {
-  position: absolute;
+  position: relative;
   background-color:  rgba(47, 48, 58, 0.80);
   width: 370px;
   height: 70px;
-  left: 806px;
-  margin-top: 225px;
+  left:30px;
+  bottom:90px;
+
 }
 .box1 {
   position: relative;
@@ -229,12 +225,12 @@ letter-spacing: 1.08px;
   height: 100px;
   background: palevioletred;
   left: 250px;
-  top:400px;
+ 
 }
 .box3 {
   position: relative;
   left: 310px;
-  top: 360px;
+ bottom:43px;
   z-index: 2 ;
   width: 100px;
   height: 100px;
@@ -246,9 +242,9 @@ letter-spacing: 1.08px;
     height: 100px;
     background: green;
     left: 370px;
-    top: 325px;;
+   bottom: 83px;
 }
-.text2 {
-  position: absolute;
-  margin-top: 320px;
+
+.container_tecnology {
+  display: flex;
 }
