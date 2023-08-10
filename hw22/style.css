@@ -248,3 +248,286 @@ margin-left: 30px;
 .container_tecnology {
   display: flex;
 }
+.container_studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  height: 80px;
+  
+  }
+  .Web { 
+   font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color:#2196F3 ; 
+   }
+  .studio {
+   color: black;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+   }
+   .link {
+   display: flex;
+   margin-left: 93px;
+   color: #2196F3;
+   font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  
+   }
+   .finger {
+   width: 16px;
+  height: 16px;
+  margin-top: 27px;
+  margin-left: -14px;
+   }
+   .text_note_two {
+    color: #212121;
+   }
+   
+   .letter {
+  margin-left: 315px;
+   }
+   .info {
+    margin-left: 14px;
+   letter-spacing: 0.02em;
+  }
+  .finger_two {
+    margin-top: 27px;
+  margin-left: -90px;
+  }
+  .phone {
+    margin-left: 120px;
+  }
+  .tel {
+    margin-left: 14px;
+    color: rgba(117, 117, 117, 1);
+  }
+  
+  .effects_business {
+   position:relative;
+    width: 696px;
+
+  height: 120px;
+  bottom: 480px;
+  left: 452px;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: white;
+  
+  }
+  .service {
+   position: relative;
+   width: 216px;
+      height: 50px;
+    font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  background: #2196F3;
+  border-radius: 4px;
+  border: none;
+  bottom:480px;
+  left: 692px;
+  }
+  
+  .backdrop {
+    background: #00000033;
+
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   
+  }
+  
+  .backdrop.is-hidden {
+    
+    display: none;
+  }
+  
+  .modal {
+    width: 528px;
+    height: 581px;
+    border-radius: 4px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+  
+    box-shadow: 0px 1px 1px 0px #00000024;
+  
+    box-shadow: 0px 1px 3px 0px #0000001F;
+  }
+  .note_information {
+  position: relative;
+  bottom: 35px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  }
+  .text-name {
+ position: relative;
+ left: 25px;
+ bottom: 40px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #757575;
+  
+  }
+ input {
+    position: relative;
+  width: 448px;
+  height: 40px;
+ 
+ bottom: 40px;
+ left:25px;
+border: 1px solid #21212133;
+  }
+ 
+
+  .icon_inform {
+  position:relative;
+  bottom: 40px;
+  right: 420px;
+  }
+  
+  
+  input:hover {
+ border: 1px solid #2196F3;
+ }
+ .icon_inform:hover path {
+  fill: #2196F3;
+}
+ 
+ 
+
+  .close  {
+   
+    border-radius: 50%;
+    position: relative;
+    left: 490px;
+    padding: 6px;
+    border: 1px solid;
+    width: 18px;
+    height: 18px;
+  }
+  .close:hover path {
+   fill:#2196F3 ;
+  }
+ 
+  textarea {
+    position: relative;
+   margin-left: 25px;
+   width: 448px;
+   height: 120px;
+   bottom:40px;
+  }
+  .check {
+    position: relative;
+    width: 16px;
+    height: 15px;
+   
+    bottom:90px;
+  }
+  .agree_text {
+position: relative;
+left: 73px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #757575;
+bottom:40px;
+  }
+  .contract {
+    color:#2196F3 ;
+  }
+  .submit {
+    position: relative;
+    bottom: 35px;
+    width: 200px;
+    height: 50px;
+    background-color:  #2196F3;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    left: 130px;
+    border: none;
+  }
+  .container_subscribe {
+    position: relative;
+  }
+  .email {
+    width: 358px;
+    height: 50px;
+  }
+  .subscribe {
+    position: relative;
+    bottom: 40px;
+    margin-left: 30px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+     text-align: left;
+
+  }
+  .button_subscribe {
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    border:none;
+  }
+  .text_subscribe {
+    position: relative;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+bottom: 10px;
+right: 20px;
+color: #FFF;
+
+  }
+  .telegram {
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+  }
