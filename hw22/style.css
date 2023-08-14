@@ -350,8 +350,6 @@ margin-left: 30px;
   
   .backdrop {
     background: #00000033;
-
-    opacity: 0.5;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -375,11 +373,7 @@ margin-left: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
-    box-shadow: 0px 2px 1px 0px #00000033;
-  
-    box-shadow: 0px 1px 1px 0px #00000024;
-  
-    box-shadow: 0px 1px 3px 0px #0000001F;
+   
   }
   .note_information {
   position: relative;
@@ -409,38 +403,42 @@ margin-left: 30px;
     position: relative;
   width: 448px;
   height: 40px;
- 
+ border-radius: 4px;
  bottom: 40px;
  left:25px;
-border: 1px solid #21212133;
+ outline: 1px solid  rgba(33, 33, 33, 0.2);
+ 
   }
  
 
   .icon_inform {
   position:relative;
   bottom: 40px;
-  right: 420px;
+  right: 460px;
   }
   
   
-  input:hover {
- border: 1px solid #2196F3;
- }
- .icon_inform:hover path {
+  
+  input:focus {
+   border:1px solid  #2196F3 ;
+  }
+.dash:active path {
   fill: #2196F3;
 }
- 
+
+ .dash input {
+  padding-left: 40px;
+ }
  
 
   .close  {
-   
-    border-radius: 50%;
+   border-radius: 50%;
     position: relative;
     left: 490px;
     padding: 6px;
-    border: 1px solid;
     width: 18px;
     height: 18px;
+    border:1px solid #0000001a;
   }
   .close:hover path {
    fill:#2196F3 ;
@@ -452,6 +450,11 @@ border: 1px solid #21212133;
    width: 448px;
    height: 120px;
    bottom:40px;
+   border-radius: 4px;
+   border: 1px solid rgba(33, 33, 33, 0.20);
+  }
+  textarea:focus {
+    outline:1px solid  #2196F3 ;
   }
   .check {
     position: relative;
