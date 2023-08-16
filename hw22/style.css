@@ -170,54 +170,41 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
+.container_for_app {
+  display: flex;
+}
+/*.app {
+  display: flex;
+  justify-content: space-between;
+}*/
+.app {
+  margin-left: 30px;
+}
 .add {
   position: relative;
-  background-color:  rgba(47, 48, 58, 0.80);
   width: 370px;
   height: 70px;
- bottom:90px;
+  background-color: rgba(47, 48, 58, 0.8);
+  left: 30px;
+  bottom: 90px;
 }
 .for-text {
   position: absolute;
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate( -50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-.img_two {
-margin-left: 30px;
-}
-.add-two {
-  position: relative;
-  background-color:  rgba(47, 48, 58, 0.80);
-  width: 370px;
-  height: 70px;
-  left:30px;
-  bottom:90px;
-}
-.img_three {
-  margin-left: 30px;
- 
-}
-.add-three {
-  position: relative;
-  background-color:  rgba(47, 48, 58, 0.80);
-  width: 370px;
-  height: 70px;
-  left:30px;
-  bottom:90px;
-
-}
 .box1 {
   position: relative;
   z-index:1;
