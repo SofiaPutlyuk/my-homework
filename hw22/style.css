@@ -214,7 +214,7 @@ letter-spacing: 1.08px;
   list-style: none;
   transition: text-decoration 1000ms ease-in;
   position: relative;
-  padding-bottom: 38px;
+  padding-bottom: 28px;
   margin-left: 55px;
 }
 .item::after {
@@ -222,7 +222,7 @@ letter-spacing: 1.08px;
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 78px;
+  width: 100%;
   height: 4px;
   border-radius: 2px;
 
@@ -396,13 +396,14 @@ color: rgba(117, 117, 117, 1);
       position: absolute;
       height: 400px;
       background-color: rgba(47, 48, 58, 0.8);
-      width: 50px;
+      transform: translatex(70px);
       width: 80px;
     }
     .container_menu:hover {
       width: 300px;
       height: 400px;
       transition: ease-in-out 2s;
+      transform: translatex(0);
     }
     .text_menu {
       position: relative;
